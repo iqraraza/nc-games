@@ -11,7 +11,7 @@ const AllCategories = () => {
   }, []);
   return (
     <div>
-      <p>I am all categories</p>
+      <p>All my Categories here</p>
       <ul>
         {categories.map((category) => {
           return (

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: rgb(41, 114, 45);
+  background-color: rgb(70, 146, 74);
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: min-content min-content auto;

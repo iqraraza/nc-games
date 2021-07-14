@@ -11,7 +11,7 @@ const AllReviews = () => {
   }, []);
   return (
     <div>
-      <p>I am all reviews</p>
+      <p>All my reviews here</p>
       <ul>
         {reviews.map((review) => {
           return (
