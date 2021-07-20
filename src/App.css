@@ -6,3 +6,11 @@
   grid-template-rows: min-content min-content auto;
   min-height: 100vh;
 }
+
+.Footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgb(241 166 105);
+  font-size: x-small;
+}

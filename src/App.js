@@ -4,12 +4,15 @@ import Header from "./Components/Header";
 import Body from "./Components/Body";
 import AllReviews from "./Components/Reviews";
 import AllCategories from "./Components/Categories";
+import Footer from "./Components/Footer";
+import Nav from "./Components/Nav";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
+        <Nav />
         <Body />
         <Switch>
           <Route exact path="/categories">
@@ -19,25 +22,9 @@ function App() {
             <AllReviews />
           </Route>
         </Switch>
+        <Footer />
       </BrowserRouter>
     </div>
   );
 }
 export default App;
-
-// Navbar.jsx file created before but deleted
-// import { useEffect, useState } from "react";
-// import { getGenres } from "../utils/api";
-
-// const Nav = () => {
-//   const [genres, setGenres] = useState([]);
-
-//   useEffect(() => {
-//     getGenres().then((genresFromApi) => {
-//       console.log(genresFromApi);
-//     });
-//   }, []);
-//   return <nav className="Nav">Nav bar</nav>;
-// };
-
-// export default Nav;
